@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Description }}">
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .Site.BaseUrl }}/css/196b49d0.main.css" rel="stylesheet">
+  <script src="{{ .Site.BaseUrl }}/js/vendor/1cb556bb.modernizr.js"></script>
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif] d-->
+    </head>
+    <body>
+      <div class="header">{{ .Site.Title }}</div>
+  <div class="nav">
+					{{ $baseUrl:= .Site.BaseUrl }}
+          <div class="nav-tab"><a href="{{ $baseUrl}}/post">文章列表</a></div>
+          <div class="nav-tab"><a href="{{ $baseUrl}}">最新文章</a></div>
+          <div class="nav-tab"><a href="http://twitter.com/zerob13">推特</a></div>
+          <div class="nav-tab"><a href="http://zerob13.in">关于作者</a></div>
+  </div>
+

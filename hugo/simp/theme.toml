@@ -1,0 +1,10 @@
+name = "simp"
+description = "simple hugo theme"
+license = "MIT"
+tags = ["blog", "company"]
+
+[author]
+    name = "zerob13"
+    homepage = "http://zerob13.in"
+    repo = "https://github.com/zerob13/hugoBlogTheme"
+

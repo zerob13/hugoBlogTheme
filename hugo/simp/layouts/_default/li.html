@@ -1,0 +1,10 @@
+{{ template "theme/partials/header.html" . }}
+      <div class="article-list">
+        <h1 class="list-head">{{.Title}}</h1>
+        <ol class="title-list">
+      {{ range .Data.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }} / {{ .Date.Format "Mon, Jan 2, 2006" }}</a></li>
+      {{ end }}
+  </ol>
+  </div>
+{{ template "theme/partials/footer.html" . }}
