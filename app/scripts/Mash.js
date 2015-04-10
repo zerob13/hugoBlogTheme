@@ -123,21 +123,14 @@ var Mash = (function() {
     return url;
   }
 
-  mash.uiInit = function() {
-    mash.gotoTab(0);
-    $('.nav-tab').on('click', function() {
-      var index = $(this).index();
-      mash.gotoTab(index);
-    });
-  }
 
 
   mash.showFloat = function() {
-    $('.float-view').css('-webkit-transform', 'translate3d(0,0,0)');
+    $('.float_view').addClass('show');
   }
+  mash.hideFloat = function() {
 
-  mash.gotoTab = function(index) {
-    $(".container-tab").removeClass('-active').eq(index).addClass('-active');
+    $('.float_view').removeClass('show');
   }
 
 
