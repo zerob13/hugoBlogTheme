@@ -1,0 +1,9 @@
+{
+  "name": "simpleblogtheme",
+  "private": true,
+  "dependencies": {
+    "zepto": "~1.1.6",
+    "modernizr": "~2.8.2",
+    "mustache": "~1.0.0"
+  }
+}
