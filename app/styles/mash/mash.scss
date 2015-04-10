@@ -2,7 +2,7 @@ $header-background: rgba(20, 20, 20, 0.9);
 $header-color: #EEE;
 
 $nav-background: #673AB7;
-$nav-color: #FAFAFA;
+$nav-color: #D1C4E9;
 
 $footer-color: #EEE;
 $footer-marginTop: 10px;
@@ -42,6 +42,13 @@ html, body {
     flex-basis: 20%;
     flex-shrink: 1;
     text-align: center;
+    transition: all .2s ease-in-out;
+    &:hover {
+      color: #EDE7F6;
+    }
+    &.-active{
+      color: #EDE7F6;
+    }
   }
 }
 
@@ -58,8 +65,8 @@ html, body {
   color: $footer-color;
   background: rgba(20, 20, 20, 0.9);
   font-size: 1.4rem;
-  height:20px;
-  line-height:20px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
 }
 
