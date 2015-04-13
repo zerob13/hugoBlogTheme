@@ -2,8 +2,10 @@
   "name": "simpleblogtheme",
   "private": true,
   "dependencies": {
-    "zepto": "~1.1.6",
+    "zepto": "https://github.com/zerob13/zepto.git#master",
     "modernizr": "~2.8.2",
-    "mustache": "~1.0.0"
+    "mustache": "~1.0.0",
+    "nprogress": "~0.1.6",
+    "history.js": "~1.8.0"
   }
 }

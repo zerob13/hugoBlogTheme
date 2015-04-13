@@ -366,13 +366,11 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up build process
     concurrent: {
       server: [
-        
         'browserify:dist',
         'sass:server',
         'copy:styles'
       ],
       dist: [
-        
         'browserify',
         'sass',
         'copy:styles',
@@ -417,7 +415,7 @@ module.exports = function (grunt) {
     'uglify',
     'copy:dist',
     'modernizr',
-    // 'rev',
+    //'rev',
     'usemin'
   ]);
 
