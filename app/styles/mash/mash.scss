@@ -43,11 +43,9 @@ html, body {
     flex-shrink: 1;
     text-align: center;
     transition: all .2s ease-in-out;
+      color: #EDE7F6;
     &:hover {
-      color: #EDE7F6;
-    }
-    &.-active{
-      color: #EDE7F6;
+      color: #aaa;
     }
   }
 }
