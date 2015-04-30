@@ -34,11 +34,13 @@ html, body {
   font-size: 1.4rem;
   margin-top: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   & .nav-tab {
     display: block;
+    width:20%;
+    max-width:70px;
     flex-basis: 20%;
     flex-shrink: 1;
     text-align: center;

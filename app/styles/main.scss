@@ -10,6 +10,7 @@ body {
 .article {
   margin: 20px auto 0 auto;
   width: 65%;
+  max-width:770px;
   @media (max-width: 400px) {
     width: 95%;
   }
